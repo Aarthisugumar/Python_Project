@@ -10,9 +10,9 @@ def update(index, task_update):
     print("Task {} updated".format(index))
 
 def view():
-    #for i in range(len(l)):
-        #if status[i] == "completed":
-            #print("ID: {}, Description: {}, Status: completed".format(i, l[i]))
+    for i in range(len(l)):
+        if status[i] == "completed":
+            print("ID: {}, Description: {}, Status: completed".format(i, l[i]))
         else:
             status.append("incompleted")
             print("ID: {}, Description: {}, Status: incompleted".format(i, l[i]))
